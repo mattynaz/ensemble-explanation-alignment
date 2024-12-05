@@ -1,0 +1,313 @@
+\begin{thebibliography}{42}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agarwal et~al.(2022)Agarwal, Krishna, Saxena, Pawelczyk, Johnson,
+  Puri, Zitnik, and Lakkaraju]{agarwal2022}
+C.~Agarwal, S.~Krishna, E.~Saxena, M.~Pawelczyk, N.~Johnson, I.~Puri,
+  M.~Zitnik, and H.~Lakkaraju.
+\newblock Open{XAI}: Towards a transparent evaluation of model explanations.
+\newblock In \emph{Thirty-sixth Conference on Neural Information Processing
+  Systems Datasets and Benchmarks Track}, 2022.
+\newblock URL \url{https://openreview.net/forum?id=MU2495w47rz}.
+
+\bibitem[AI-Rights(2022)]{aibillofrights}
+AI-Rights.
+\newblock Blueprint for an {AI} {B}ill of {R}ights, 2022.
+\newblock URL \url{https://www.whitehouse.gov/ostp/ai-bill-of-rights/}.
+
+\bibitem[Ainsworth et~al.(2023)Ainsworth, Hayase, and Srinivasa]{ainsworth2023}
+S.~K. Ainsworth, J.~Hayase, and S.~Srinivasa.
+\newblock Git re-basin: Merging models modulo permutation symmetries.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Allen-Zhu and Li(2023)]{allenzhu2023}
+Z.~Allen-Zhu and Y.~Li.
+\newblock Towards understanding ensemble, knowledge distillation and
+  self-distillation in deep learning.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Benton et~al.(2021)Benton, Maddox, Lotfi, and Wilson]{benton2021}
+G.~W. Benton, W.~J. Maddox, S.~Lotfi, and A.~G. Wilson.
+\newblock Loss surface simplexes for mode connecting volumes and fast
+  ensembling.
+\newblock In \emph{International Conference on Machine Learning}, 2021.
+
+\bibitem[Black et~al.(2021)Black, Leino, and Fredrikson]{black2021selective}
+E.~Black, K.~Leino, and M.~Fredrikson.
+\newblock Selective ensembles for consistent predictions.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+
+\bibitem[Brunet et~al.(2022)Brunet, Anderson, and Zemel]{brunet2022}
+M.-E. Brunet, A.~Anderson, and R.~Zemel.
+\newblock Implications of model indeterminacy for explanations of automated
+  decisions.
+\newblock In \emph{Advances in Neural Information Processing Systems}. Curran
+  Associates, Inc., 2022.
+\newblock URL \url{https://openreview.net/pdf?id=LzbrVf-l0Xq}.
+
+\bibitem[D'Amour et~al.(2022)D'Amour, Heller, Moldovan, Adlam, Alipanahi,
+  Beutel, Chen, Deaton, Eisenstein, Hoffman, Hormozdiari, Houlsby, Hou, Jerfel,
+  Karthikesalingam, Lucic, Ma, McLean, Mincu, Mitani, Montanari, Nado,
+  Natarajan, Nielson, Osborne, Raman, Ramasamy, Sayres, Schrouff, Seneviratne,
+  Sequeira, Suresh, Veitch, Vladymyrov, Wang, Webster, Yadlowsky, Yun, Zhai,
+  and Sculley]{damour2022}
+A.~D'Amour, K.~Heller, D.~Moldovan, B.~Adlam, B.~Alipanahi, A.~Beutel, C.~Chen,
+  J.~Deaton, J.~Eisenstein, M.~D. Hoffman, F.~Hormozdiari, N.~Houlsby, S.~Hou,
+  G.~Jerfel, A.~Karthikesalingam, M.~Lucic, Y.~Ma, C.~McLean, D.~Mincu,
+  A.~Mitani, A.~Montanari, Z.~Nado, V.~Natarajan, C.~Nielson, T.~F. Osborne,
+  R.~Raman, K.~Ramasamy, R.~Sayres, J.~Schrouff, M.~Seneviratne, S.~Sequeira,
+  H.~Suresh, V.~Veitch, M.~Vladymyrov, X.~Wang, K.~Webster, S.~Yadlowsky,
+  T.~Yun, X.~Zhai, and D.~Sculley.
+\newblock Underspecification presents challenges for credibility in modern
+  machine learning.
+\newblock \emph{Journal of Machine Learning Research}, 23\penalty0
+  (226):\penalty0 1--61, 2022.
+\newblock URL \url{http://jmlr.org/papers/v23/20-1335.html}.
+
+\bibitem[Dietterich(2000)]{dietterich2000}
+T.~G. Dietterich.
+\newblock Ensemble methods in machine learning.
+\newblock In \emph{Multiple Classifier Systems}, pages 1--15, Berlin,
+  Heidelberg, 2000. Springer Berlin Heidelberg.
+\newblock ISBN 978-3-540-45014-6.
+
+\bibitem[Draxler et~al.(2019)Draxler, Veschgini, Salmhofer, and
+  Hamprecht]{draxler2019}
+F.~Draxler, K.~Veschgini, M.~Salmhofer, and F.~A. Hamprecht.
+\newblock Essentially no barriers in neural network energy landscape.
+\newblock In \emph{International Conference on Machine Learning}, 2019.
+
+\bibitem[Dua and Graff(2017)]{uci2017}
+D.~Dua and C.~Graff.
+\newblock {UCI} machine learning repository, 2017.
+\newblock URL \url{http://archive.ics.uci.edu/ml}.
+\newblock Accessed on 2023-05-16.
+
+\bibitem[FICO(2018)]{heloc}
+FICO.
+\newblock Explainable machine learning challenge, 2018.
+\newblock URL
+  \url{https://community.fico.com/s/explainable-machine-learning-challenge?tabset-158d9=d157e}.
+\newblock Accessed on 2023-05-16.
+
+\bibitem[Fort and Jastrzebski(2019)]{fort2019}
+S.~Fort and S.~Jastrzebski.
+\newblock Large scale structure of neural network loss landscapes.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume
+  abs/1906.04724, 2019.
+\newblock URL \url{http://arxiv.org/abs/1906.04724}.
+
+\bibitem[Freshcorn(2022)]{gmsc}
+B.~Freshcorn.
+\newblock Give me some credit :: 2011 competition data | kaggle, 2022.
+\newblock URL
+  \url{https://www.kaggle.com/datasets/brycecf/give-me-some-credit-dataset}.
+\newblock Accessed on 2023-05-16.
+
+\bibitem[Furlanello et~al.(2018)Furlanello, Lipton, Tschannen, Itti, and
+  Anandkumar]{furlanello2018}
+T.~Furlanello, Z.~Lipton, M.~Tschannen, L.~Itti, and A.~Anandkumar.
+\newblock Born again neural networks.
+\newblock In J.~Dy and A.~Krause, editors, \emph{Proceedings of the 35th
+  International Conference on Machine Learning}, volume~80 of \emph{Proceedings
+  of Machine Learning Research}, pages 1607--1616. PMLR, 10--15 Jul 2018.
+\newblock URL \url{https://proceedings.mlr.press/v80/furlanello18a.html}.
+
+\bibitem[Gal(2016)]{gal2016}
+Y.~Gal.
+\newblock Uncertainty in deep learning.
+\newblock \emph{University of Cambridge}, 1\penalty0 (3), 2016.
+
+\bibitem[Garipov et~al.(2018)Garipov, Izmailov, Podoprikhin, Vetrov, and
+  Wilson]{garipov2018}
+T.~Garipov, P.~Izmailov, D.~Podoprikhin, D.~P. Vetrov, and A.~G. Wilson.
+\newblock Loss surfaces, mode connectivity, and fast ensembling of dnns.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2018.
+
+\bibitem[GDPR(2018)]{gdpr}
+GDPR.
+\newblock General {D}ata {P}rotection {R}egulation ({GDPR}), 2018.
+\newblock URL \url{https://gdpr.eu/tag/gdpr/}.
+
+\bibitem[Gotmare et~al.(2018)Gotmare, Keskar, Xiong, and Socher]{gotmare2018}
+A.~Gotmare, N.~S. Keskar, C.~Xiong, and R.~Socher.
+\newblock Using mode connectivity for loss landscape analysis.
+\newblock In \emph{ICML Workshop on Modern Trends in Nonconvex Optimization for
+  Machine Learning,}, volume abs/1806.06977, 2018.
+\newblock URL \url{http://arxiv.org/abs/1806.06977}.
+
+\bibitem[Han et~al.(2022)Han, Srinivas, and Lakkaraju]{han2022}
+T.~Han, S.~Srinivas, and H.~Lakkaraju.
+\newblock Which explanation should {I} choose? {A} function approximation
+  perspective to characterizing post hoc explanations.
+\newblock In A.~H. Oh, A.~Agarwal, D.~Belgrave, and K.~Cho, editors,
+  \emph{Advances in Neural Information Processing Systems}, 2022.
+\newblock URL \url{https://openreview.net/forum?id=rTvH1_SRyXs}.
+
+\bibitem[Hinton et~al.(2015)Hinton, Vinyals, and Dean]{hinton2015}
+G.~Hinton, O.~Vinyals, and J.~Dean.
+\newblock Distilling the knowledge in a neural network.
+\newblock In \emph{NIPS Deep Learning and Representation Learning Workshop},
+  2015.
+\newblock URL \url{http://arxiv.org/abs/1503.02531}.
+
+\bibitem[Izmailov et~al.(2018)Izmailov, Podoprikhin, Garipov, Vetrov, and
+  Wilson]{izmailov2018}
+P.~Izmailov, D.~Podoprikhin, T.~Garipov, D.~P. Vetrov, and A.~G. Wilson.
+\newblock Averaging weights leads to wider optima and better generalization.
+\newblock In \emph{Conference on Uncertainty in Artificial Intelligence},
+  volume abs/1803.05407, 2018.
+\newblock URL \url{http://arxiv.org/abs/1803.05407}.
+
+\bibitem[{Joblib Development Team}(2020)]{joblib2020}
+{Joblib Development Team}.
+\newblock Joblib: running python functions as pipeline jobs, 2020.
+\newblock URL \url{https://joblib.readthedocs.io/}.
+
+\bibitem[Krishna et~al.(2022)Krishna, Han, Gu, Pombra, Jabbari, Wu, and
+  Lakkaraju]{krishna2022}
+S.~Krishna, T.~Han, A.~Gu, J.~Pombra, S.~Jabbari, S.~Wu, and H.~Lakkaraju.
+\newblock The disagreement problem in explainable machine learning: A
+  practitioner's perspective, 2022.
+\newblock URL \url{https://arxiv.org/abs/2202.01602}.
+
+\bibitem[Lakshminarayanan et~al.(2017)Lakshminarayanan, Pritzel, and
+  Blundell]{lakshminarayanan2017}
+B.~Lakshminarayanan, A.~Pritzel, and C.~Blundell.
+\newblock Simple and scalable predictive uncertainty estimation using deep
+  ensembles.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2017.
+
+\bibitem[Li et~al.(2021)Li, Xiong, Huang, Ji, and Dou]{li2021}
+X.~Li, H.~Xiong, S.~Huang, S.~Ji, and D.~Dou.
+\newblock Cross-model consensus of explanations and beyond for image
+  classification models: An empirical study, 2021.
+\newblock URL \url{https://arxiv.org/abs/2109.00707}.
+
+\bibitem[Liaw et~al.(2018)Liaw, Liang, Nishihara, Moritz, Gonzalez, and
+  Stoica]{liaw2018}
+R.~Liaw, E.~Liang, R.~Nishihara, P.~Moritz, J.~E. Gonzalez, and I.~Stoica.
+\newblock Tune: A research platform for distributed model selection and
+  training.
+\newblock In \emph{ICML Workshop on AutoML}, 2018.
+
+\bibitem[Lundberg and Lee(2017)]{lundberg2017}
+S.~M. Lundberg and S.-I. Lee.
+\newblock A unified approach to interpreting model predictions.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, \emph{Advances in Neural
+  Information Processing Systems}, volume~30. Curran Associates, Inc., 2017.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf}.
+
+\bibitem[MacKay(1992)]{mackay1992}
+D.~J. MacKay.
+\newblock A practical {B}ayesian framework for backpropagation networks.
+\newblock \emph{Neural computation}, 4\penalty0 (3):\penalty0 448--472, 1992.
+
+\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan,
+  Killeen, Lin, Gimelshein, Antiga, Desmaison, Köpf, Yang, DeVito, Raison,
+  Tejani, Chilamkurthy, Steiner, Fang, Bai, and Chintala]{paszke2019}
+A.~Paszke, S.~Gross, F.~Massa, A.~Lerer, J.~Bradbury, G.~Chanan, T.~Killeen,
+  Z.~Lin, N.~Gimelshein, L.~Antiga, A.~Desmaison, A.~Köpf, E.~Yang, Z.~DeVito,
+  M.~Raison, A.~Tejani, S.~Chilamkurthy, B.~Steiner, L.~Fang, J.~Bai, and
+  S.~Chintala.
+\newblock Pytorch: An imperative style, high-performance deep learning library.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2019.
+
+\bibitem[Ribeiro et~al.(2016)Ribeiro, Singh, and Guestrin]{ribeiro2016}
+M.~T. Ribeiro, S.~Singh, and C.~Guestrin.
+\newblock "why should i trust you?": Explaining the predictions of any
+  classifier.
+\newblock In \emph{Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, KDD '16, page 1135–1144, New York,
+  NY, USA, 2016. Association for Computing Machinery.
+\newblock ISBN 9781450342322.
+\newblock \doi{10.1145/2939672.2939778}.
+\newblock URL \url{https://doi.org/10.1145/2939672.2939778}.
+
+\bibitem[Simonyan et~al.(2013)Simonyan, Vedaldi, and Zisserman]{simonyan2013}
+K.~Simonyan, A.~Vedaldi, and A.~Zisserman.
+\newblock Deep inside convolutional networks: Visualising image classification
+  models and saliency maps.
+\newblock \emph{CoRR}, abs/1312.6034, 2013.
+
+\bibitem[Singh and Jaggi(2020)]{singh2020}
+S.~P. Singh and M.~Jaggi.
+\newblock Model fusion via optimal transport.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume
+  abs/1910.05653, 2020.
+\newblock URL \url{http://arxiv.org/abs/1910.05653}.
+
+\bibitem[Smilkov et~al.(2017)Smilkov, Thorat, Kim, Viegas, and
+  Wattenberg]{smoothgrad2017}
+D.~Smilkov, N.~Thorat, B.~Kim, F.~Viegas, and M.~M. Wattenberg.
+\newblock Smoothgrad: removing noise by adding noise.
+\newblock In \emph{ICML Workshop on Visualization for Deep Learning}, Sydney,
+  Australia, 2017.
+\newblock \doi{0.48550/arXiv.1706.03825}.
+\newblock URL \url{https://arxiv.org/abs/1706.03825}.
+
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov]{srivastava2014}
+N.~Srivastava, G.~Hinton, A.~Krizhevsky, I.~Sutskever, and R.~Salakhutdinov.
+\newblock Dropout: A simple way to prevent neural networks from overfitting.
+\newblock \emph{Journal of Machine Learning Research}, 15\penalty0
+  (56):\penalty0 1929--1958, 2014.
+\newblock URL \url{http://jmlr.org/papers/v15/srivastava14a.html}.
+
+\bibitem[Tatro et~al.(2020)Tatro, Chen, Das, Melnyk, Sattigeri, and
+  Lai]{tatro2020}
+N.~J. Tatro, P.-Y. Chen, P.~Das, I.~Melnyk, P.~Sattigeri, and R.~Lai.
+\newblock Optimizing mode connectivity via neuron alignment.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2020.
+
+\bibitem[Upadhyay et~al.(2021)Upadhyay, Joshi, and Lakkaraju]{upadhyay2021}
+S.~Upadhyay, S.~Joshi, and H.~Lakkaraju.
+\newblock Towards robust and reliable algorithmic recourse.
+\newblock In M.~Ranzato, A.~Beygelzimer, Y.~Dauphin, P.~Liang, and J.~W.
+  Vaughan, editors, \emph{Advances in Neural Information Processing Systems},
+  volume~34, pages 16926--16937. Curran Associates, Inc., 2021.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2021/file/8ccfb1140664a5fa63177fb6e07352f0-Paper.pdf}.
+
+\bibitem[Van~Rossum and Drake~Jr(1995)]{van1995}
+G.~Van~Rossum and F.~L. Drake~Jr.
+\newblock \emph{Python reference manual}.
+\newblock Centrum voor Wiskunde en Informatica Amsterdam, 1995.
+
+\bibitem[Wu et~al.(2020)Wu, Wang, and Xia]{wu2020}
+D.~Wu, Y.~Wang, and S.~Xia.
+\newblock Adversarial weight perturbation helps robust generalization.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume
+  abs/2004.05884, 2020.
+\newblock URL \url{https://arxiv.org/abs/2004.05884}.
+
+\bibitem[Yang et~al.(2021)Yang, Li, Xu, Kailkhura, Xie, and Li]{yang2021}
+Z.~Yang, L.~Li, X.~Xu, B.~Kailkhura, T.~Xie, and B.~Li.
+\newblock On the certified robustness for ensemble models and beyond, 2021.
+\newblock URL \url{https://arxiv.org/abs/2107.10873}.
+
+\bibitem[Yeh and Lien(2009)]{yeh2009}
+I.-C. Yeh and C.-h. Lien.
+\newblock The comparisons of data mining techniques for the predictive accuracy
+  of probability of default of credit card clients.
+\newblock \emph{Expert Systems with Applications}, 36\penalty0 (2, Part
+  1):\penalty0 2473--2480, 2009.
+\newblock ISSN 0957-4174.
+\newblock \doi{https://doi.org/10.1016/j.eswa.2007.12.020}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0957417407006719}.
+
+\bibitem[Zhao et~al.(2020)Zhao, Chen, Das, Ramamurthy, and Lin]{zhao2020}
+P.~Zhao, P.~Chen, P.~Das, K.~N. Ramamurthy, and X.~Lin.
+\newblock Bridging mode connectivity in loss landscapes and adversarial
+  robustness.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+\newblock URL \url{https://arxiv.org/abs/2005.00060}.
+
+\end{thebibliography}

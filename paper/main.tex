@@ -1,0 +1,138 @@
+
+\documentclass{article}
+
+
+% if you need to pass options to natbib, use, e.g.:
+\PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2023
+
+
+% ready for submission
+% \usepackage{neurips_2023}
+
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+    \usepackage[preprint]{neurips_2023}
+
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+%     \usepackage[final]{neurips_2023}
+
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{neurips_2023}
+
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+
+% User packages
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{multirow}
+\usepackage{caption} 
+\usepackage{amsmath}
+\captionsetup[table]{skip=5pt}
+
+% User commands
+\raggedbottom
+
+
+\title{Consistent Explanations in the Face of Model Indeterminacy via Ensembling}
+
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to break the
+% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
+% authors names on the first line, and the last on the second line, try using
+% \AND instead of \And before the third author name.
+%
+%\thanks{Correspondence to dley@g.harvard.edu.}
+\author{%
+Dan Ley \quad Leonard Tang \quad Matthew Nazari \\
+\textbf{Hongjin Lin} \quad \textbf{Suraj Srinivas} \quad \textbf{Himabindu Lakkaraju} \\
+Harvard University, Cambridge, MA\\
+\texttt{\{dley, hongjin\_lin\}@g.harvard.edu}\\
+\texttt{\{leonardtang, matthewnazari\}@college.harvard.edu}\\
+\texttt{ssrinivas@seas.harvard.edu, hlakkaraju@hbs.edu}
+}
+
+% \author{%
+%   Dan Ley\thanks{Use footnote for providing further information
+%     about author (webpage, alternative address)---\emph{not} for acknowledging
+%     funding agencies.} \\
+%   Harvard University\\
+%   Cambridge, MA\\
+%   \texttt{dley@g.harvard.edu} \\
+%   % examples of more authors
+%   \And
+%   Leonard Tang \\
+%   Harvard University \\
+%   Cambridge, MA \\
+%   \texttt{leonardtang}\\\texttt{@college.harvard.edu} \\
+%   \And
+%   Matthew Nazari \\
+%   Harvard University \\
+%   Cambridge, MA \\
+%   \texttt{matthewnazari}\\\texttt{@college.harvard.edu} \\
+%   \AND
+%   Hongjin Lin \\
+%   Harvard University \\
+%   Cambridge, MA \\
+%   \texttt{hongjin\_lin}\\\texttt{@g.harvard.edu} \\
+%   \And
+%   Suraj Srinivas \\
+%   Harvard University \\
+%   Cambridge, MA \\
+%   \texttt{ssrinivas@seas.harvard.edu} \\
+%   \And
+%   Himabindu Lakkaraju \\
+%   Harvard University \\
+%   Cambridge, MA \\
+%   \texttt{hlakkaraju@hbs.edu} \\
+% }
+
+
+\newcommand{\suraj}[1]{{\color{cyan} Suraj: #1}}
+\newcommand{\dan}[1]{{\color{blue} Dan: #1}}
+
+\begin{document}
+
+
+\maketitle
+
+
+\begin{abstract}
+This work addresses the challenge of providing consistent explanations for predictive models in the presence of model indeterminacy, which arises due to the existence of multiple (nearly) equally well-performing models for a given dataset and task. Despite their similar performance, such models often exhibit inconsistent or even contradictory explanations for their predictions, posing challenges to end users who rely on these models to make critical decisions. Recognizing this issue, we introduce ensemble methods as an approach to enhance the consistency of the explanations provided in these scenarios. Leveraging insights from recent work on neural network loss landscapes and mode connectivity, we devise ensemble strategies to efficiently explore the \textit{underspecification set} -- the set of models with performance variations resulting solely from changes in the random seed during training. Experiments on five benchmark financial datasets reveal that ensembling can yield significant improvements when it comes to explanation similarity, and demonstrate the potential of existing ensemble methods to explore the underspecification set efficiently. Our findings highlight the importance of considering model indeterminacy when interpreting explanations and showcase the effectiveness of ensembles in enhancing the reliability of explanations in machine learning.
+\end{abstract}
+
+
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/ensembles}
+\input{sections/experiments}
+\input{sections/limitations}
+%\input{sections/future_work.tex}
+
+\pagebreak
+
+%\nocite{*}
+\bibliographystyle{abbrvnat}
+\bibliography{ref}
+
+\appendix
+\input{sections/appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

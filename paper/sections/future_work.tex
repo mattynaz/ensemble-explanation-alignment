@@ -1,0 +1,21 @@
+\section{Future Work}
+\label{sec:future}
+
+Compound the fact that explanations vs loss landscape analysis research exist almost in parallel. Future work includes:
+
+\begin{itemize}
+    \item Analysis across underspecification sets (rashomon set \citep{xin2022})
+    \item Optimization and further analysis on perturbing weights
+    \begin{itemize}
+        \item Consider a selection process on the perturbations (simplest is train accuracy)
+        \item Consider sampling across $\sigma$ values, since in high dimensions samples lie on a hypershell around the input (not within a hyperspherical volume)
+    \end{itemize}
+    \item Utilization of permutation symmetries to first align constituent models in weight space to enable faster exploration of the underspecification set. \citep{tatro2020, singh2020, ainsworth2023}
+    \item Ensembling techniques: distillation, self-distillation, analysis of their effects, etc \dan{yes leonard}
+    \item Perhaps the most relevant future work is combining models within the ensemble into a single point in weight space
+\end{itemize}
+
+Future work should strive to explore further properties of the loss landscape to expedite mode connectivity, building upon recent advancements in the field [REFS]. Permutation symmetries can align model weights before averaging... linear mode connectivity is possible through permutation, etc.
+
+
+\paragraph{Closing remarks} convergence of neural network analysis with explanation analysis
