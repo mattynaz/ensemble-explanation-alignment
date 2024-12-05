@@ -1,9 +1,6 @@
-# Harvard COMPSCI 282BR
-## Topics in Machine Learning: Interpretability and Explainability
+# Consistent explanations in the face of model indeterminacy via ensembling
 
 Dan Ley, Matthew Nazari, Leonard Tang, Hongjin Lin
-
-2023 Spring
 
 ## Usage
 

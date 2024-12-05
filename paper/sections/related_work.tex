@@ -1,0 +1,26 @@
+\section{Related work}
+\label{sec:related}
+
+\subsection{Underspecification and model indeterminacy}
+
+\citet{damour2022} identified underspecification in ML pipelines as a key reason for poor behavior under deployment, defining an ML pipeline to be underspecified when it can return various distinct predictors with equivalently strong test performance. They identify the resulting instability as a distinct failure mode from previously identified issues arising from structural mismatches between training and deployment domains. In a similar vein, \citet{brunet2022} investigated the implications of model indeterminacy on post-hoc explanations of predictive models, demonstrating that underspecification can lead to significant explanatory multiplicity, and highlighting that predictive multiplicity and epistemic uncertainty are not reliable indicators of explanatory multiplicity. Both works motivate the need to explicitly account for underspecification in ML pipelines intended for real-world deployment.
+
+%\textbf{Condense above and add:} \cite{glorot2010, xin2022, mehrer2020, kolen1990, black2021unfairness}
+
+\subsection{Explanation methods}
+
+Various explanation techniques have been proposed to provide interpretability for ML models, with some of the most commonly used methods being Saliency \citep{simonyan2013}, its smoothed counterpart SmoothGrad \citep{smoothgrad2017}, as well as local function approximators such as LIME \citep{ribeiro2016} and SHAP \citep{lundberg2017}. Smoothgrad has been highlighted as particularly faithful to the model being explained \citep{agarwal2022}. In recent years, an increasing effort has been lent toward understanding the workings and limitations of these methods. For instance, \citet{krishna2022} analyzed the disagreement between different explanation methods for a fixed model, highlighting the challenge of providing consistent explanations, while \citet{han2022} attempted to unify popular post-hoc explanation methods.
+
+%\textbf{Additional:} \citet{koh2017, doshivelez2017, rawal2020}
+
+\subsection{Ensembles}
+
+Ensemble methods have traditionally lent themselves as potent tools within ML, providing advantages such as reduced generalization error \citep{allenzhu2023, dietterich2000}, robustness to adversarial examples \citep{yang2021}, and uncertainty estimation \citep{lakshminarayanan2017}. However, analysis of ensembles alongside explanatory multiplicity has only been briefly touched. \citet{black2021selective} introduced selective ensembles, which abstain from decisions in regions of predictive uncertainty, in an effort to avoid contradictory predictions and make explanations more consistent, though with limited analysis on explanations explicitly. \citet{li2021} also proposed a cross-model consensus of explanations to identify common features used by various models for classification, finding correlations between consensus score and model performance for vision tasks.
+% Finally, ensemble models have been analyzed in the context of certified adversarial robustness \citep{yang2022}, with the concept of model smoothness introduced as a key factor. Smoothness bounds naturally promote explanation 
+
+%\textbf{References:} \citet{yang2021}
+
+\subsection{Loss landscapes and mode connectivity}
+
+We are interested in leveraging known properties of neural networks to combat model indeterminacy and expedite the ensembling process of the underspecification set. A key aspect in this regard is understanding where high performing models are located within the loss landscape. Traditionally, diverse model solutions were viewed as lying in disjoint local minima, until \citet{garipov2018} and \citet{draxler2019} demonstrated that these minima could be connected via paths of near constant loss in weight space, a concept dubbed \textit{mode connectivity}. This surprising result opened the door for a body of subsequent research, including %analysis of its resilience to training conditions \citep{gotmare2018}, 
+applications of mode connectivity in adversarial robustness \citep{zhao2020}, discovery of mode connecting volumes \citep{fort2019, benton2021}, and alignment of models in weight space through permutation symmetries \citep{ainsworth2023, singh2020, tatro2020}. Although ensemble methods feature prominently in this literature, their application with respect to model explanations has received very little attention. Advances in loss landscape understanding and implications of model indeterminacy have emerged as recent, yet distinct developments, with the two fields existing almost in parallel. The aim of this work is to serve as a catalyst for their convergence, and bring about a unified exploration of both areas.
